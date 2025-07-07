@@ -1,13 +1,44 @@
 .header { 
     display: flex;
-    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     font-family:'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
-    
+    padding: 1em 2em;
     color: darkblue;
     margin: 10px;
+    background-color: lightblue;
+    flex-wrap: wrap;
 }
+.logo { align-self: flex-start;}
+
+a  {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: auto;    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;}
+
+img  {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+/*
 .list { 
 display: flex;
 justify-content: flex-end;
@@ -23,3 +54,4 @@ padding: 10px;
     color: darkblue;
    
 }
+*/
