@@ -1,15 +1,40 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;;
+    align-items: center;
+   
+}
+.box-1, .box-2, .box-3, .box-4 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: darkblue;
+}
+
+.joe {
+    width: 200px;
+    height: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: darkblue;
+}
+
+
+
 .header { 
     display: flex;
     width: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;;
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
-    padding: 1em 2em;
     color: darkblue;
-    margin: 10px;
     background-color: lightblue;
     flex-wrap: wrap;
 }
@@ -23,8 +48,7 @@ a  {
 
 nav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+   align-self: flex-end;
     list-style-type: none;
     gap: 20px;
     font-size: 12px;
@@ -32,13 +56,38 @@ nav ul {
     margin: 0;
     padding: 0;}
 
+.box {
+    display: flex;
+    align-self: center;
+    background-color: lightblue;
+border: 10px solid darkblue;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 200px;
+width: 300px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+    
+    
+    .family-image { border: 10px solid darkblue;}
+
+    .container {
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+padding: 10px;
+
+background-color: lightblue;
+
+    }
 img  {
     width: 400px;
     height: 400px;
     display: flex;
-    align-items: center;
+    align-self: flex-start;
+    
 }
-/*
+
 .list { 
 display: flex;
 justify-content: flex-end;
@@ -54,4 +103,3 @@ padding: 10px;
     color: darkblue;
    
 }
-*/
